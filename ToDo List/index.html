@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+</head>
+<body style="display: flex;justify-content: center;align-items: center;height: 90vh;" class="lato-regular">
+    <div class="container">
+        <h1>Todo List</h1>
+        <div style="display: flex;justify-content: center">
+        <input type="text" name="task" placeholder="Add a new task..." style="border-radius: 5px;border: 1px solid #d3d7dc;margin-right: 10px;width: 22em;padding-left: 1rem;" class="input-bar">
+        <div style="background-color: #a855f7;display: flex;align-items: center;padding: 8px 12px; border: none;border-radius: 5px;color: white;gap: 2px;">
+            <i class="fa-solid fa-plus"></i>
+        <label for="task" class="add">Add</label>
+        </div>
+        
+        </div>
+        
+        <div class="tasks"></div>
+    <script src="script.js"></script>
+</body>
+</html>
